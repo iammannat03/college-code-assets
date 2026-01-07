@@ -1,0 +1,19 @@
+
+import random
+
+n=15000
+
+fp = open("random_"+str(n)+".txt","w")
+fp.write(str(n)+" ")
+
+
+numbers = list(range(1, n+1))
+random.shuffle(numbers)
+
+for i in range(n):
+    fp.write(str(numbers[i])+" ")
+
+fp.close()
+
+print(f"Generated random_{n}.txt with {n} elements")
+
