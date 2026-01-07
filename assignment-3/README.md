@@ -39,13 +39,13 @@ This assignment contains implementations of various Maximum Sum Subarray problem
 Use the Python scripts to generate input files:
 - `ascending.py` - Generates ascending order numbers
 - `descending.py` - Generates descending order numbers  
-- `random.py` - Generates random numbers (including negatives)
+- `generate_random.py` - Generates random numbers (including negatives)
 
 **Required sizes**: 100, 1000, 10000, 50000, 100000, 500000, 1000000
 
 Change the `n` value in each Python script and run:
 ```bash
-python3 random.py
+python3 generate_random.py
 ```
 
 ## Compilation and Execution
